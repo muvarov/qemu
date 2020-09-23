@@ -175,7 +175,6 @@ bad_offset:
         r = 0;
         break;
     }
-    trace_cmsdk_apb_watchdog_read(offset, r, size);
     return r;
 }
 
